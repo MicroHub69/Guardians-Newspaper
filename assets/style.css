@@ -173,6 +173,7 @@ nav {
 
 .main_blog .first_blog .component1 h3 {
   font-size: 30px;
+  font-weight: 500;
   margin: 20px 0;
   line-height: 35px;
 }
@@ -201,6 +202,82 @@ nav {
 
 .main_blog .other_blogs .others {
   margin-bottom: 50px;
+}
+
+hr {
+  border: 1px solid #747474;
+  margin: 30px 0;
+}
+
+footer {
+  background-color: #f4f4f4;
+  min-height: 100px;
+}
+
+footer .foot {
+  padding: 20px 0;
+}
+
+footer .foot h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+footer .foot .new_mail {
+  background-color: #ffffff;
+  max-width: 350px;
+  height: 50px;
+  margin-bottom: 15px;
+  border-radius: 50px;
+}
+
+footer .foot .new_mail input {
+  height: 47px;
+  background: transparent;
+  border: 0;
+  border-radius: 50px;
+  width: 254px;
+  outline: 0;
+  padding: 15px;
+}
+
+footer .foot .new_mail button {
+  width: 70px;
+  height: 35px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  border: 0;
+  cursor: pointer;
+  background-color: var(--logo);
+  border-radius: 50px;
+}
+
+footer .foot p {
+  max-width: 450px;
+}
+
+footer .foot .copyr p {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px auto;
+}
+
+footer .foot .copyr ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+
+footer .foot .copyr ul li a img {
+  width: 30px;
+  height: 30px;
 }
 
 @media (max-width: 768px) {
@@ -246,6 +323,26 @@ nav {
 @media (min-width: 768px) {
   .container {
     padding: 0 40px;
+  }
+  .copyr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  footer .foot .copyr ul {
+    width: 35%;
+    margin: 0;
+  }
+  footer .foot .copyr p {
+    margin: 0;
+    text-align: left;
   }
   .other_blogs {
     display: -webkit-box;

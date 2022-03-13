@@ -155,6 +155,7 @@ nav {
       }
       h3 {
         font-size: 30px;
+        font-weight: 500;
         margin: 20px 0;
         line-height: 35px;
       }
@@ -183,6 +184,82 @@ nav {
   .other_blogs {
     .others {
       margin-bottom: 50px;
+    }
+  }
+}
+
+hr {
+  border: 1px solid rgb(116, 116, 116);
+  margin: 30px 0;
+}
+
+footer {
+  background-color: #f4f4f4;
+  min-height: 100px;
+  .foot {
+    padding: 20px 0;
+    // max-width: 450px;
+    h3 {
+      font-size: 25px;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    .new_mail {
+      // border: 1px solid #ddd;
+      background-color: #ffffff;
+      max-width: 350px;
+      height: 50px;
+      margin-bottom: 15px;
+      border-radius: 50px;
+      input {
+        height: 47px;
+        background: transparent;
+        border: 0;
+        border-radius: 50px;
+        width: 254px;
+        outline: 0;
+        padding: 15px;
+      }
+
+      button {
+        width: 70px;
+        height: 35px;
+        font-weight: 600;
+        font-size: 14px;
+        color: #ffffff;
+        border: 0;
+        cursor: pointer;
+        background-color: var(--logo);
+        border-radius: 50px;
+      }
+    }
+    p {
+      max-width: 450px;
+    }
+
+    .copyr {
+      p {
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px auto;
+      }
+
+      ul {
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        margin: 0 auto;
+        li {
+          a {
+            img {
+              width: 30px;
+              height: 30px;
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -225,6 +302,19 @@ nav {
 @media (min-width: 768px) {
   .container {
     padding: 0 40px;
+  }
+  .copyr {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  footer .foot .copyr ul {
+    width: 35%;
+    margin: 0;
+  }
+  footer .foot .copyr p {
+    margin: 0;
+    text-align: left;
   }
   .other_blogs {
     display: flex;
