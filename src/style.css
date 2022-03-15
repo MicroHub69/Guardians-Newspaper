@@ -200,8 +200,45 @@ nav {
   margin: 30px 0;
 }
 
-.main_blog .other_blogs .others {
+.other_blog .others {
   margin-bottom: 50px;
+}
+
+.other_blog .others .main_pic {
+  border-radius: 10px;
+  margin-bottom: 35px;
+}
+
+.other_blog .others .component1 label {
+  background-color: var(--mini-blue);
+  color: rgba(49, 31, 56, 0.87);
+  font-weight: 800;
+  padding: 5px 15px;
+  border-radius: 50px;
+}
+
+.other_blog .others .component1 h3 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 20px 0;
+  line-height: 35px;
+}
+
+.other_blog .others .component1 p {
+  margin-bottom: 15px;
+}
+
+.other_blog .others .component1 .by {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.other_blog .others .component1 .by img {
+  width: 45px;
+  margin-right: 10px;
+  height: 45px;
+  border-radius: 50%;
 }
 
 hr {
@@ -344,16 +381,18 @@ footer .foot .copyr ul li a img {
     margin: 0;
     text-align: left;
   }
-  .other_blogs {
+  .other_blog {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
-  .other_blogs .others {
-    width: 30%;
+  .other_blog .others {
+    width: 32.3%;
     margin-bottom: 50px;
   }
   .main_banner .banner {
