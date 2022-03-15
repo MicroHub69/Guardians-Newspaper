@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Guardians-Newspaper/static/css/main.8c25bcac.css",
-    "main.js": "/Guardians-Newspaper/static/js/main.278ef77c.js",
+    "main.js": "/Guardians-Newspaper/static/js/main.05f7d70f.js",
     "index.html": "/Guardians-Newspaper/index.html",
     "main.8c25bcac.css.map": "/Guardians-Newspaper/static/css/main.8c25bcac.css.map",
-    "main.278ef77c.js.map": "/Guardians-Newspaper/static/js/main.278ef77c.js.map"
+    "main.05f7d70f.js.map": "/Guardians-Newspaper/static/js/main.05f7d70f.js.map"
   },
   "entrypoints": [
     "static/css/main.8c25bcac.css",
-    "static/js/main.278ef77c.js"
+    "static/js/main.05f7d70f.js"
   ]
 }
