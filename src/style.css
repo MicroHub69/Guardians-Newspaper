@@ -165,7 +165,7 @@ nav {
 
 .main_blog .first_blog .component1 label {
   background-color: var(--mini-blue);
-  color: rgba(49, 31, 56, 0.87);
+  color: white;
   font-weight: 800;
   padding: 5px 15px;
   border-radius: 50px;
@@ -210,8 +210,8 @@ nav {
 }
 
 .other_blog .others .component1 label {
-  background-color: var(--mini-blue);
-  color: rgba(49, 31, 56, 0.87);
+  background-color: rgba(219, 219, 92, 0.884);
+  color: white;
   font-weight: 800;
   padding: 5px 15px;
   border-radius: 50px;

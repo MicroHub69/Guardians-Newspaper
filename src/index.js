@@ -18,6 +18,7 @@ function App() {
         user={item.user}
         time={item.time}
         username={item.username}
+        label={item.label}
       />
     );
   });
@@ -32,6 +33,7 @@ function App() {
         user={item.user}
         time={item.time}
         username={item.username}
+        label={item.label}
       />
     );
   });
